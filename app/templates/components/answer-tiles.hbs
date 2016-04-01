@@ -1,1 +1,9 @@
-{{yield}}
+<form>
+  <label for="content">something
+  {{textarea value=content}}
+  </label>
+  <label for="author">Author:
+    {{input value=author id="author"}}
+  </label>
+  <button type="button" {{action 'save'}}>Submit Answer</button>
+</form>
