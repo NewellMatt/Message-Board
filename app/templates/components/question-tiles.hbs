@@ -1,5 +1,7 @@
-<div>
-  <h2>{{question.content}}</h2>
-  <h3>{{question.author}}</h3>
-  <h4>{{question.additional_info}}</h4>
-</div>
+{{#link-to 'question' question.id}}
+  <div>
+    <h2>{{question.content}}</h2>
+    <h3>{{question.author}}</h3>
+    <h4>{{question.additional_info}}</h4>
+  </div>
+{{/link-to}}
