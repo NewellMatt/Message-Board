@@ -1,0 +1,14 @@
+{ "questions": [{
+    "content": "I have a difficult question about why my code isn't working... PLEASE HELP!",
+    "author": "Penelope Fernadez",
+    "additional_notes": "I just really need help."
+  }, {
+    "content": "Peter George",
+    "author": "San Francisco",
+    "additional_notes": "Estate"
+  }, {
+    "content": "List",
+    "author": "Craig",
+    "additional_notes": "People are trying to buy stuff on my site"
+  }]
+}
