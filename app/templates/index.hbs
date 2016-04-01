@@ -1,3 +1,7 @@
-{{#each model.questions as |question|}}
-  {{question-tiles question=question}}
-{{/each}}
+<ul>
+  {{#each model.questions as |question|}}
+    {{question-tiles question=question}}
+  {{/each}}
+</ul>
+
+{{add-question questionToSave="questionSave"}}

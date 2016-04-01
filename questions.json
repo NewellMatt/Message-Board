@@ -1,14 +1,14 @@
 { "questions": [{
-    "content": "I have a difficult question about why my code isn't working... PLEASE HELP!",
+    "content": "What does html stand for?",
     "author": "Penelope Fernadez",
-    "additional_notes": "I just really need help."
+    "additionalNotes": "I just really need help remembering it."
   }, {
-    "content": "Easy question maybe someone can answer this?",
+    "content": "What is node js and what is it used for?",
     "author": "Peter George",
-    "additional_notes": "actually this is difficult..."
+    "additionalNotes": "Easy question maybe someone can answer this? actually this is difficult..."
   }, {
     "content": "List",
     "author": "Craig",
-    "additional_notes": "People are trying to buy stuff on my site"
+    "additionalNotes": "People are trying to buy stuff on my site"
   }]
 }
