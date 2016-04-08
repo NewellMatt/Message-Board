@@ -1,3 +1,12 @@
 .Flow{
   font-family: sans-serif;
 }
+
+header {
+  border-bottom: 1px solid black;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+}

@@ -10,7 +10,7 @@ export default Ember.Component.extend({
        var params = {
          content: this.get('content'),
          author: this.get('author'),
-         additionalNotes: this.get('additionalNotes')
+         additionalNotes: this.get('additionalNotes'),
        };
        this.set('addNewQuestion', false);
        this.set('content', '');

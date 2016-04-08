@@ -1,8 +1,21 @@
 {{#each answers as |answer|}}
 <div>
-    <p>
-      Answer: {{answer.content}}
-    </p>
-    <span>{{answer.author}}</span>
+  Author: {{answer.author}}
+  <p>
+    Answer: {{answer.content}}
+
+    <li>
+    {{#if isLikeTrue }}
+      You Liked this Answer!
+     {{else}}
+       <button {{action 'buttonLike'}}>Like Answer</button>
+       <button {{action 'delete' answer}}>Delete</button>
+    {{/if}}
+</li>
+
+
+  </p>
+  Likes: {{answer.likes}}
 </div>
+<br>
 {{/each}}

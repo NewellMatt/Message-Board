@@ -1,15 +1,17 @@
-<header>
-<h2 id="title"><span class="">Steak</span> <span class="Flow">ovalFlow</span></h2>
-</header>
-
 <div class="container">
+  <header>
+    <h2 id="title">Message<span class="Flow">Board</span></h2>
+
+    {{#link-to 'index'}}Home{{/link-to}} |
+    {{#link-to 'about'}}About{{/link-to}} |
+    {{#link-to 'contact'}}Contact{{/link-to}} |
+  </header>
+
   {{outlet}}
 </div>
 
 <footer>
-  <ul>
-    <li>{{#link-to 'index'}}Home{{/link-to}}</li>
-    <li>{{#link-to 'about'}}About{{/link-to}}</li>
-    <li>{{#link-to 'contact'}}Contact{{/link-to}}</li>
-  </ul>
+  <div class="footer">
+    <p>MessageBoard -- 2016</p>
+  </div>
 </footer>

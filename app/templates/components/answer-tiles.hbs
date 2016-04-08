@@ -1,9 +1,9 @@
 <form>
-  <label for="content">something
-  {{textarea value=content}}
+  <label for="content">Leave a comment
+    {{textarea value=content}}
   </label>
-  <label for="author">Author:
-    {{input value=author id="author"}}
+  <label for="author">Leave a name:
+    {{input value=author}}
   </label>
   <button type="button" {{action 'save'}}>Submit Answer</button>
 </form>
