@@ -1,6 +1,10 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
+
+  sortBy: ['likes:asc'],
+  sortedLikes: Ember.computed.sort('answers', 'sortBy'),
+
   isLikeTrue: false,
 
   actions: {
