@@ -10,6 +10,7 @@ Router.map(function() {
   this.route('about');
   this.route('question-list');
   this.route('question', {path: '/question/:question_id'}); //this here for commit log
+  this.route('favorite-question');
 });
 
 export default Router;
