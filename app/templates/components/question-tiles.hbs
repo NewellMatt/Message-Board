@@ -1,8 +1,8 @@
 {{#link-to 'question' question.id}}
   <div>
-    <h4>{{question.content}}</h4>
+    <h1>{{question.content}}</h1>
     {{fullQuestionInfo}}
   </div>
 {{/link-to}}
 
-<button {{action "addToCart" question}}>Mark As Favorite Question</button>
+<button class="btn btn-primary btn-sm" {{action "addToCart" question}}>Mark As Favorite Question</button>

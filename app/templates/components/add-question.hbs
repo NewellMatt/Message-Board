@@ -18,9 +18,9 @@
           {{input value=additionalNotes id="additionalNotes"}}
         </div>
 
-        <button {{action 'newQuestionMethod'}}>Save</button>
+        <button class="btn btn-primary btn-sm" {{action 'newQuestionMethod'}}>Save</button>
       </form>
     </div>
 {{else}}
-    <button {{action 'questionFormShow'}}>New Question</button>
+    <button class="btn btn-primary btn-sm" {{action 'questionFormShow'}}>New Question</button>
 {{/if}}
