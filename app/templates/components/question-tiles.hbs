@@ -1,6 +1,6 @@
 {{#link-to 'question' question.id}}
   <div>
-    <h1>{{question.content}}</h1>
+    <h1>{{question-popularity question}}{{question.content}}</h1>
     {{fullQuestionInfo}}
   </div>
 {{/link-to}}
