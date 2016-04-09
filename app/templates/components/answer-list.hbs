@@ -1,21 +1,10 @@
 {{#each sortedLikes as |answer|}}
-<div>
   Author: {{answer.author}}
-  <p>
-    Answer: {{answer.content}}
+  Answer: {{answer.content}}
 
-    <li>
-    {{#if isLikeTrue }}
-      You Liked this Answer!
-     {{else}}
-       <button {{action 'buttonLike'}}>Like Answer</button>
-       <button {{action 'delete' answer}}>Delete</button>
-    {{/if}}
-</li>
+  <button {{action 'upVote' answer}}> Upvote</button>
+  <button {{action 'delete' answer}}>Delete</button>
 
-
-  </p>
-  Likes: {{answer.likes}}
-</div>
-<br>
+  UpVotes: {{answer.upVotes}}
+  <br>
 {{/each}}

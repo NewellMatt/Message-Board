@@ -21,11 +21,15 @@ export default Ember.Route.extend({
         }
       });
       question.save();
-      this.transitionTo();
+      this.transitionTo('question');
     },
     destroyAnswer(answer){
       answer.destroyRecord();
       this.transitionTo('question');
-    }
+    },
+    upVote(answer) {
+      answer.incrementProperty('upVotes');
+      answer.save();
+    },
   }
 });

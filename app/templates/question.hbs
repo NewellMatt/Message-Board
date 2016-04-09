@@ -1,4 +1,4 @@
-<h2>{{model.author}} has {{model.answers.length}} answer/s about their question. </h2>
+<h2>{{model.author}} has {{model.answers.length}} answers</h2>
 
 <p>
   Question: {{model.content}}
@@ -10,5 +10,5 @@
 
 {{update-question question=model update="update"}}
 
-{{answer-tiles question=model save="save"}}
-{{answer-list answers=model.answers destroyAnswer="destroyAnswer"}}
+{{answer-tiles question=model save="save" }}
+{{answer-list answers=model.answers destroyAnswer="destroyAnswer" upVote="upVote"}}
