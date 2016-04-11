@@ -1,7 +1,9 @@
 # Message-board
-Matthew newell
+# Created by Matthew Newell
+
 This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+
+This simple Ember app is mock of a Message-Board, it provides a Homepage to create a question, and dynamic routes to update, delete and add answers to those questions. Helpers are used to show popularity on questions. The answer and questions are sorted by the amount.
 
 ## Prerequisites
 
